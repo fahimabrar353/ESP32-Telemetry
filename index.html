@@ -96,7 +96,7 @@
                     
                     initializeMap();
                     fetchFirebaseData();
-                    fetchInterval = setInterval(fetchFirebaseData, 5000); // Start polling
+                    fetchInterval = setInterval(fetchFirebaseData, 1000); // Start polling
                 } else {
                     throw new Error("Invalid login");
                 }
